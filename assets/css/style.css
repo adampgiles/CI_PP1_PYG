@@ -8,20 +8,33 @@
     font-family: Montserrat;
 }
 
+body{
+    background-color: #D99C52;
+}
+
 /* Responsive Navbar CSS code imported and modified from YouTube tutorial (https://www.youtube.com/watch?v=At4B7A4GOPg&t=155s) */
 .navbar {
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #0D0D0D;
-    color: #D99036;
+    background-color: #A66329;
+    color: #F2BE5C;
 }
 
-.brand-title {
+.brand-title{
     font-size: 1.5rem;
     margin: .5rem;
     font-weight: bold;
+}
+
+.brand-title a{    
+    text-decoration: none;
+    color: white;
+}
+
+.brand-title a:hover {
+    color: orange;
 }
 
 .navbar-links {
@@ -29,7 +42,7 @@
 }
 
 .navbar-links ul {
-    display: flex;
+    display: flex;    
     margin: 0;
     padding: 0;
 }
@@ -41,12 +54,12 @@
 .navbar-links li a {
     display: block;
     text-decoration: none;     
-    color: #D99036;
+    color: white;
     padding: 1rem;
 }
 
 .navbar-links li a:hover {
-    color: white;
+    color: orange;
 }
 
 .toggle-button {
@@ -63,9 +76,41 @@
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: #D99036;
+    background-color: white;
     border-radius: 10px;
 }
+
+.home-image{
+    max-width: 1920px;
+    margin: auto;
+}
+
+.image-container{
+    position: relative;
+    text-align: center;
+}
+
+.home-image img{
+    height: 100vw;
+    width: 100%;
+    object-fit: cover;
+    max-height: 720px;
+}
+
+.home-image h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 175%;
+}
+
+
 
 @media (max-width: 800px) {
     .navbar {
@@ -80,12 +125,16 @@
     .navbar-links {
         display: none;
         width: 100%;
+        position: absolute;
+        height: fit-content;
+        top: 2.75rem;  
+        z-index: 1;  
     }
 
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
-        background-color: #D99036;
+        background-color: #be7331;
     }
 
     .navbar-links ul li {
@@ -94,7 +143,7 @@
 
     .navbar-links ul li a {
         padding: .5rem 1rem;
-        color: #0D0D0D;
+        color: white;
         font-weight: bold;
     }
 
