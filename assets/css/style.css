@@ -69,7 +69,7 @@ body{
     right: 1rem;
     display: none;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 30px;
     height: 21px;    
 }
@@ -81,7 +81,7 @@ body{
     border-radius: 10px;
 }
 
-.home-image{
+.container{
     max-width: 1920px;
     margin: auto;
 }
@@ -112,7 +112,63 @@ body{
     font-weight: 500;
 }
 
+.lodge-section{
+    margin: auto;
+    padding: 0px;
+}
 
+.lodge-section h2{
+    text-align: center;
+    font-weight: 700;
+}
+
+.lodge-card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lodge-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;   
+    flex: 1;
+    margin: 5px;
+    padding: 5px;    
+    background-color: rgb(248, 248, 248);
+}
+
+.lodge-card img{
+    border-radius: 5px;
+    width: 100%;
+    max-height: 720px;
+}
+
+.lodge-card h2,h3{
+    font-weight: 600;
+    margin-right: auto;
+    padding: 2.5px 5px 2.5px 5px;
+}
+
+.lodge-card h3{
+    color: grey;
+}
+
+.lodge-card p{
+    margin-right: auto;
+    padding: 5px 5px 10px 5px;
+    min-height: 100px;
+}
+
+.lodge-card button {
+    font-size: 150%;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px;   
+    color: black;
+    background-color: orange;
+}
 
 @media (max-width: 800px) {
     .navbar {
