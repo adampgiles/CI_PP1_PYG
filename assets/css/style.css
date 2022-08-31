@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,1000');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
 
 
 * {
@@ -20,8 +20,8 @@ body{
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(orange, orange) rgb(245, 245, 245) bottom no-repeat; 
-    background-size: 100% 7.5px;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)) orange bottom no-repeat; 
+    background-size: 100% 10px;
 }
 
 .brand-title{
@@ -31,7 +31,7 @@ body{
 
 .brand-title a{    
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 700;
     color: black;
 }
 
@@ -79,6 +79,13 @@ body{
     height: 3px;
     width: 100%;
     background-color: black;
+    border-radius: 10px;
+}
+
+.book-link{
+    font-weight: bold;
+    background: white;
+    background-size: 50% 50%;
     border-radius: 10px;
 }
 
@@ -156,7 +163,6 @@ body{
 .lodge-card-container{
     display: flex;
     justify-content: space-evenly;
-    overflow: hidden;
 }
 
 .lodge-card{
@@ -208,12 +214,6 @@ body{
     background-color: orange;
 }
 
-.info-section{
-    margin: auto;
-    padding: 0px;
-    max-width: 100%;
-}
-
 .info-section h2{
     text-align: center;
     font-weight: 700;
@@ -224,7 +224,7 @@ body{
 .info-section p{
     text-align: center;
     font-weight: 600;
-    font-size: 175%;
+    font-size: 125%;
     padding: 10px;
 }
 
@@ -236,7 +236,18 @@ body{
 
 .map-container iframe{
     height: 50vh;
-    padding: 25px;
+    padding: 25px 25px 0px 25px;
+}
+
+.disclaimer{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.disclaimer p{
+    font-weight: bold;
+    font-size: 100%;
 }
 
 @media (max-width: 800px) {
@@ -244,37 +255,70 @@ body{
         flex-direction: column;
         align-items: flex-start;
     }
-
     .toggle-button {
         display: flex;       
     }
-
     .navbar-links {
         display: none;
-        width: 100%;
+        width: fit-content;
+        right: 0;
         position: absolute;
         height: fit-content;
         top: 2.8rem;  
         z-index: 1;  
     }
-
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.85);
+        background-color: white;
+    }
+    .navbar-links ul li {
+        text-align: right;
+    }
+    .navbar-links ul li a {
+        padding: 0.5rem 1rem;
+        color: black;
+        font-weight: bold;
+    }
+    .navbar-links.active {
+        display: flex;
     }
 
-    .navbar-links ul li {
+    .container{        
+        overflow: hidden;
+    }
+
+    /* Park Section */
+    .park-item-container{
+        flex-direction: column;
+        margin: 10px;
+        padding: 0px;    
+    }
+    .park-item{
+        flex-direction: column;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;    
+    }
+
+    .lodge-section{
+        align-content: center;
+    }
+    
+    .lodge-card-container{
+        flex-direction: column;
+        align-items: center;
+    }    
+
+    .lodge-card{
         text-align: center;
     }
 
-    .navbar-links ul li a {
-        padding: 0.5rem 1rem;
-        color: white;
-        font-weight: bold;
+    .lodge-card h2,h3{
+        margin: auto;
     }
 
-    .navbar-links.active {
-        display: flex;
+    .lodge-card p{
+    padding-bottom: 10px;
     }
 }
