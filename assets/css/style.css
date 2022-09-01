@@ -389,6 +389,41 @@ footer p{
     background-color: var(--accentColour)
 }
 
+/* Park page */
+.park-details-section{
+    max-width: 850px;
+}
+
+.park-details-images{
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;   
+}
+
+.park-details-images img{
+    border-radius: 5px;
+    width: 33%;  
+    margin-bottom: 10px;  
+    max-height: 720px;
+}
+
+.park-details-text{
+   text-align: center;
+   padding: 20px;
+   border: 2px solid var(--accentColour);
+   border-radius: 20px;
+}
+
+.park-details-text h3{
+    font-size: 150%;
+    font-weight: 600;
+    padding: 10px;
+ }
+
+ .park-details-text p{
+    padding: 10px;
+ }
+
 
 @media (max-width: 800px) {
     .navbar {
@@ -560,7 +595,5 @@ footer p{
         color: black;
         background-color: var(--accentColour)
     }
-
-    
 
 }
