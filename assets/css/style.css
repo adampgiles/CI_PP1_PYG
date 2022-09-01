@@ -4,6 +4,7 @@
 
 :root{
     --accentColour: orange; 
+    --boxBackgroundColour: #e1e1e8; 
 }
 
 * {
@@ -19,6 +20,7 @@ body section{
     background-color: white;
     max-width: 1920px;
     margin: auto;
+    overflow: hidden;
 }
 
 /* Responsive Navbar CSS code imported and modified from YouTube tutorial (https://www.youtube.com/watch?v=At4B7A4GOPg&t=155s) */
@@ -32,7 +34,7 @@ body section{
 }
 
 .brand-title{    
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin: 0.5rem;
 }
 
@@ -73,20 +75,14 @@ body section{
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
+    top: .5rem;
     right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 30px;
-    height: 21px;    
+    display: none;  
 }
 
-.toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: black;
-    border-radius: 10px;
+.toggle-button a {
+    text-decoration: none;
+    color: black;
 }
 
 .book-link{
@@ -284,24 +280,23 @@ footer p{
         align-items: flex-start;
     }
     .toggle-button {
-        display: flex;       
+        display: block;       
     }
     .navbar-links {
         display: none;
-        width: fit-content;
-        right: 0;
+        width: 100%;
         position: absolute;
         height: fit-content;
-        top: 2.65rem;  
+        top: 2.9725rem;  
         z-index: 1;  
     }
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
-        background-color: white;
+        background-color: var(--boxBackgroundColour);
     }
     .navbar-links ul li {
-        text-align: right;
+        text-align: center;
     }
     .navbar-links ul li a {
         padding: 0.5rem 1rem;
@@ -310,10 +305,6 @@ footer p{
     }
     .navbar-links.active {
         display: flex;
-    }
-
-    .container{        
-        overflow: hidden;
     }
 
     /* Park Section */
