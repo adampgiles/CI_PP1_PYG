@@ -3,8 +3,9 @@
 
 
 :root{
-    --accentColour: orange; 
-    --boxBackgroundColour: #e1e1e8; 
+    --lightColour: #fafafa; 
+    --darkColour: #151515;
+    --accentColour: #FFD700; 
 }
 
 * {
@@ -17,10 +18,10 @@
 }
 
 body section{
-    background-color: white;
     max-width: 1920px;
     margin: auto;
     overflow: hidden;
+    background-color: white;
 }
 
 /* Responsive Navbar CSS code imported and modified from YouTube tutorial (https://www.youtube.com/watch?v=At4B7A4GOPg&t=155s) */
@@ -29,8 +30,9 @@ body section{
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(var(--accentColour), var(--accentColour)) white bottom no-repeat; 
-    background-size: 100% 2px;
+    padding-bottom: 2px;
+    background-color: var(--darkColour);
+    border-bottom: 2px solid var(--accentColour);
 }
 
 .brand-title{    
@@ -41,7 +43,8 @@ body section{
 .brand-title a{    
     font-family: 'Uncial Antiqua', cursive;
     text-decoration: none;
-    color: black;
+    color: var(--accentColour);
+    text-decoration: underline;
 }
 
 .brand-title a:hover {
@@ -58,6 +61,8 @@ body section{
     padding: 5px;
 }
 
+
+
 .navbar-links li {
     list-style: none;
 }
@@ -65,12 +70,13 @@ body section{
 .navbar-links li a {
     display: block;
     text-decoration: none;     
-    color: black;
+    color: var(--lightColour);
     padding: .75rem;
 }
 
 .navbar-links li a:hover {
     color: var(--accentColour);
+    text-decoration: underline;
 }
 
 .toggle-button {
@@ -80,16 +86,8 @@ body section{
     display: none;  
 }
 
-.toggle-button a {
-    text-decoration: none;
-    color: black;
-}
-
-.book-link{
-    font-weight: bold;
-    background: white;
-    background-size: 50% 50%;
-    border-radius: 10px;
+.fa-bars{
+    color: var(--accentColour);
 }
 
 .body section{
@@ -106,7 +104,7 @@ body section{
     height: 100vw;
     width: 100%;
     object-fit: cover;
-    max-height: 900px;
+    max-height: 900px;        
 }
 
 .home-image h3{
@@ -115,11 +113,11 @@ body section{
     left: 0;
     right: 0;
     transform: translate(0, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.65);
     padding: 1%;
     text-align: center;
     color: white;
-    font-size: 175%;
+    font-size: 170%;
     font-weight: 500;
 }
 
@@ -138,9 +136,7 @@ body section{
     display: flex;
     align-items: center;
     overflow: hidden;
-    flex: 1;
-    margin: 5px;
-    padding: 5px;    
+    flex: 1;   
 }
 
 .park-item{
@@ -148,19 +144,32 @@ body section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     border: 2px solid var(--accentColour); 
     border-radius: 5px;   
     flex: 1;
-    margin: 50px;
-    padding: 10px;    
-    background-color: rgb(248, 248, 248);
+    min-height: 25vh;
+    margin: 25px;
+    padding: 30px;    
+    background-color: var(--lightColour);
+}
+
+.park-item h3{
+    font-weight: 600;
+    font-size: 150%;
+    padding: 0px 10px 10px 10px;
+}
+
+.park-item p{
+    font-weight: 500;
+    padding: 10px;
 }
 
 .lodge-section h2{
     text-align: center;
     font-weight: 700;
     font-size: 200%;
-    padding: 20px;
+    padding: 10px 20px 20px 20px;
 }
 
 .lodge-card-container{
@@ -177,7 +186,7 @@ body section{
     flex: 1;
     margin: 5px;
     padding: 10px;    
-    background-color: rgb(248, 248, 248);
+    background-color: var(--lightColour);
 }
 
 .lodge-card img{
@@ -198,7 +207,7 @@ body section{
     font-weight: 600;
     margin-right: auto;
     padding: 0px 5px 2.5px 5px;
-    color: rgb(100, 100, 100);
+    color: rgb(110, 110, 110);
 }
 
 .lodge-card p{
@@ -214,14 +223,14 @@ body section{
     border-radius: 5px;
     padding: 5px;   
     color: black;
-    background-color: orange;
+    background-color: var(--accentColour)
 }
 
 .info-section h2{
     text-align: center;
     font-weight: 700;
     font-size: 200%;
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
 }
 
 .info-section p{
@@ -258,19 +267,126 @@ body section{
 
 footer{
     padding-top: 10px;
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0)) var(--accentColour) top no-repeat; 
-    background-size: 100% 10px;
+    background-color: var(--darkColour);
+    border-top: 2px solid var(--accentColour);
 }
 
 footer div{
     margin: auto;
     text-align: center;
     padding: 5px;
+    color: var(--lightColour);
 }
 
 footer p{
     font-weight: 400;
     font-size: 100%;
+}
+
+/* Lodge Page */
+.lodge-details-section{
+    max-width: 850px;
+}
+
+.lodge-details-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.lodge-details{
+    display: flex;
+    align-items: center;;
+    flex-direction: column;
+    border: 2px solid var(--accentColour); 
+    border-radius: 5px;   
+    flex: 1;
+    margin: 5px;
+    padding: 10px;    
+    background-color: var(--lightColour);
+}
+
+.lodge-details-images{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.lodge-details-images img{
+    border-radius: 5px;
+    width: 33%;  
+    margin-bottom: 10px;  
+    max-height: 720px;
+}
+
+.lodge-details-text{
+    display: flex;
+    justify-content: space-evenly;   
+    align-items: center; 
+    margin-bottom: 10px;
+}
+
+.lodge-details-info{
+    max-width: 50%;
+}
+
+.lodge-details-icons{
+    display: flex;
+    flex: 1;
+    margin: 0px 10px 10px 10px;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.icon-container p{
+    font-size: 150%;
+}
+
+.lodge-details-included{
+    max-width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid var(--darkColour);
+    border-radius: 5px;
+}
+
+.lodge-details-included p{
+    line-height: 125%;
+}
+
+.lodge-details h2{  
+    font-size: 150%;  
+    font-weight: 700;
+    margin-right: auto;
+    padding: 10px 5px 0px 5px;
+}
+
+.lodge-details h3{
+    font-size: 125%;  
+    font-weight: 600;
+    margin-right: auto;
+    padding: 0px 5px 2.5px 5px;
+    color: rgb(110, 110, 110);
+}
+
+.lodge-details p{
+    margin-right: auto;
+    padding: 5px 5px 0px 5px;
+    min-height: 75px;
+    font-weight: 500;
+}
+
+.lodge-details button {
+    font-size: 150%;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto; 
+    margin-bottom: 5px;  
+    color: black;
+    background-color: var(--accentColour)
 }
 
 
@@ -287,20 +403,20 @@ footer p{
         width: 100%;
         position: absolute;
         height: fit-content;
-        top: 2.9725rem;  
-        z-index: 1;  
+        top: 3.2rem;  
+        z-index: 1; 
     }
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
-        background-color: var(--boxBackgroundColour);
+        background-color: var(--darkColour);
     }
     .navbar-links ul li {
         text-align: center;
     }
     .navbar-links ul li a {
         padding: 0.5rem 1rem;
-        color: black;
+        color: var(--lightColour);
         font-weight: bold;
     }
     .navbar-links.active {
@@ -340,4 +456,111 @@ footer p{
     .lodge-card p{
     padding-bottom: 10px;
     }
+
+    /* Lodge Page */
+    .lodge-details-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .lodge-details{
+        display: flex;
+        align-items: center;;
+        flex-direction: column;
+        border: 2px solid var(--accentColour); 
+        border-radius: 5px;   
+        flex: 1;
+        margin: 5px;
+        padding: 10px;    
+        background-color: var(--lightColour);
+    }
+    
+    .lodge-details-images{
+        display: flex;
+        justify-content: space-between;    
+    }
+    
+    .lodge-details-images img{
+        border-radius: 5px;
+        width: 33%;  
+        margin-bottom: 10px;  
+        max-height: 720px;
+    }
+    
+    .lodge-details-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;   
+        align-items: center; 
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .lodge-details-info{
+        max-width: 100%;
+    }
+    
+    .lodge-details-icons{
+        display: flex;
+        flex: 1;
+        margin: 0px 10px 10px 10px;
+    }
+    
+    .icon-container{
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .icon-container p{
+        font-size: 150%;
+    }
+    
+    .lodge-details-included{
+        max-width: 100%;
+        margin: 10px;
+        padding: 10px;
+        border: 2px solid var(--darkColour);
+        border-radius: 5px;
+    }
+    
+    .lodge-details-included p{
+        line-height: 125%;
+        text-align: left;
+    }
+    
+    .lodge-details h2{  
+        font-size: 150%;  
+        font-weight: 700;
+        margin-right: auto;
+        padding: 10px 5px 0px 5px;
+    }
+    
+    .lodge-details h3{
+        font-size: 125%;  
+        font-weight: 600;
+        margin-right: auto;
+        padding: 0px 5px 2.5px 5px;
+        color: rgb(110, 110, 110);
+    }
+    
+    .lodge-details p{
+        margin-right: auto;
+        padding: 5px 5px 0px 5px;
+        min-height: 75px;
+        font-weight: 500;
+    }
+    
+    .lodge-details button {
+        font-size: 150%;
+        font-weight: 600;
+        border-radius: 5px;
+        padding: 5px;
+        margin: auto;   
+        color: black;
+        background-color: var(--accentColour)
+    }
+
+    
+
 }
