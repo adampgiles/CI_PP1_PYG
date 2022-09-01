@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
 
+
+:root{
+    --accentColour: orange; 
+}
 
 * {
     box-sizing: border-box;
@@ -10,8 +15,10 @@
     font-size: 100%;
 }
 
-body{
+body section{
     background-color: white;
+    max-width: 1920px;
+    margin: auto;
 }
 
 /* Responsive Navbar CSS code imported and modified from YouTube tutorial (https://www.youtube.com/watch?v=At4B7A4GOPg&t=155s) */
@@ -20,23 +27,23 @@ body{
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)) orange bottom no-repeat; 
-    background-size: 100% 10px;
+    background: linear-gradient(var(--accentColour), var(--accentColour)) white bottom no-repeat; 
+    background-size: 100% 2px;
 }
 
-.brand-title{
-    font-size: 1.5rem;
+.brand-title{    
+    font-size: 1.25rem;
     margin: 0.5rem;
 }
 
 .brand-title a{    
+    font-family: 'Uncial Antiqua', cursive;
     text-decoration: none;
-    font-weight: 700;
     color: black;
 }
 
 .brand-title a:hover {
-    color: orange;
+    color: var(--accentColour);
 }
 
 .navbar-links {
@@ -61,7 +68,7 @@ body{
 }
 
 .navbar-links li a:hover {
-    color: orange;
+    color: var(--accentColour);
 }
 
 .toggle-button {
@@ -89,7 +96,7 @@ body{
     border-radius: 10px;
 }
 
-.container{
+.body section{
     max-width: 1920px;
     margin: auto;
 }
@@ -145,7 +152,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 2px solid rgba(0, 0, 0, 0.1); 
+    border: 2px solid var(--accentColour); 
     border-radius: 5px;   
     flex: 1;
     margin: 50px;
@@ -169,7 +176,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 2px solid rgba(0, 0, 0, 0.1); 
+    border: 2px solid var(--accentColour); 
     border-radius: 5px;   
     flex: 1;
     margin: 5px;
@@ -224,8 +231,22 @@ body{
 .info-section p{
     text-align: center;
     font-weight: 600;
-    font-size: 125%;
+    font-size: 100%;
     padding: 10px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 10% 20px 10%;
+}
+
+.social-media a{
+    color: black;
+}
+
+.social-media a:hover{
+    color: var(--accentColour);
 }
 
 .map-container{
@@ -236,19 +257,26 @@ body{
 
 .map-container iframe{
     height: 50vh;
-    padding: 25px 25px 0px 25px;
+    padding: 20px 25px 20px 25px;
 }
 
-.disclaimer{
+footer{
+    padding-top: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0)) var(--accentColour) top no-repeat; 
+    background-size: 100% 10px;
+}
+
+footer div{
     margin: auto;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
-.disclaimer p{
-    font-weight: bold;
+footer p{
+    font-weight: 400;
     font-size: 100%;
 }
+
 
 @media (max-width: 800px) {
     .navbar {
@@ -264,7 +292,7 @@ body{
         right: 0;
         position: absolute;
         height: fit-content;
-        top: 2.8rem;  
+        top: 2.65rem;  
         z-index: 1;  
     }
     .navbar-links ul {
