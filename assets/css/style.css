@@ -423,12 +423,83 @@ footer p{
     font-size: 150%;
     font-weight: 600;
     padding: 10px;
- }
+}
 
- .park-details-text p{
+.park-details-text p{
     padding: 10px;
- }
+}
 
+/* Contact Page */
+.form-section{    
+    margin: auto;
+    border: 2px solid var(--accentColour);
+}
+
+.name-section{
+    display: flex;
+    width: 100%;
+}
+.name-section div{
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+    flex: 1;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid black;
+}
+.name-section label{
+    text-align: right;
+    padding: 10px;
+    width: 100%;
+}
+.name-section input{
+    width: 100%;
+} 
+
+.contact-section{
+    display: flex;
+    width: 100%;
+}
+.contact-section div{
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+    flex: 1;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid black;
+}
+.contact-section label{
+    text-align: right;
+    padding: 10px;
+    width: 100%;
+}
+.contact-section input{
+    width: 100%;
+} 
+
+.dates-section{
+    display: flex;
+    width: 100%;
+}
+.dates-section div{
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+    flex: 1;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid black;
+}
+.dates-section label{
+    text-align: right;
+    padding: 10px;
+    width: 100%;
+}
+.dates-section input{
+    width: 100%;
+} 
 
 @media (max-width: 800px) {
     .navbar {
