@@ -31,6 +31,11 @@
     </nav>
   </header>  
 
+  <div class="contact-page-info">
+    <h2>Request your perfect lodge holiday below...</h2>
+    <p>Please complete the form below and a member of our Booking Team will be in-touch shortly.</p>
+  </div>
+
   <!-- Form section. Contains a booking request form -->
   <section class="form-section">
     <form>
@@ -68,15 +73,19 @@
             </div>
         </div>
         <!-- Lodge Selection Section -->
-        <div class="lodge-selection">
-            <label>Requested Lodge:</label>
-            <label for="cwtch" class="lodge">The Cwtch (Welsh Hug Lodge)</label><br>
-            <label for="cenninPedr" class="lodge">Cennin Pedr (The Daffodill Lodge)</label><br>
-            <label for="ddraigGoch" class="lodge">Ddraig Goch (Red Dragon Lodge)</label><br>
-            <input type="radio" id="cwtch" name="lodge_cwtch" value="The Cwtch (Welsh Hug Lodge)">
-            <input type="radio" id="cenninPedr" name="lodge_cenninPedr" value="Cennin Pedr (The Daffodill Lodge)">
-            <input type="radio" id="ddraigGoch" name="lodge_ddraigGoch" value="Ddraig Goch (Red Dragon Lodge)">
-        </div>
+        <div class="lodge-choice-section">
+          <label for="lodge">Lodge Selection:</label>
+            <select name="lodge" id="lodge">
+              <option value="cwtch">The Cwtch</option>
+              <option value="cennin">Cennin Pedr</option>
+              <option value="ddraig">Ddraig Goch</option>
+            </select>
+        </div> 
+        <!-- Submit Button Section -->
+        <div class="submit-button-section">
+          <input type="submit" value="Request Booking">
+        </div> 
+      </div>
         
     </form>
   </section>  

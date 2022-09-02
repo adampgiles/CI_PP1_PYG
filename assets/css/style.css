@@ -430,27 +430,52 @@ footer p{
 }
 
 /* Contact Page */
-.form-section{    
+.contact-page-info h2{
     margin: auto;
-    border: 2px solid var(--accentColour);
+    text-align: center;
+    font-size: 150%;  
+    font-weight: 700;
+    margin-right: auto;
+    padding: 30px;
+}
+.contact-page-info p{
+    margin: auto;
+    text-align: center;
+    font-size: 125%;  
+    font-weight: 400;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.form-section{   
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.form-section label{    
+    font-weight: 500;
 }
 
 .name-section{
     display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
 }
 .name-section div{
     display: flex;
+    justify-content: center;
     flex-basis: 100%;
     width: 100%;
     flex: 1;
-    padding: 10px;
+    padding: 5px;
     align-items: center;
-    border: 1px solid black;
 }
 .name-section label{
     text-align: right;
-    padding: 10px;
+    padding: 5px;
     width: 100%;
 }
 .name-section input{
@@ -459,6 +484,7 @@ footer p{
 
 .contact-section{
     display: flex;
+    flex-direction: column;
     width: 100%;
 }
 .contact-section div{
@@ -466,13 +492,12 @@ footer p{
     flex-basis: 100%;
     width: 100%;
     flex: 1;
-    padding: 10px;
+    padding: 5px;
     align-items: center;
-    border: 1px solid black;
 }
 .contact-section label{
     text-align: right;
-    padding: 10px;
+    padding: 5px;
     width: 100%;
 }
 .contact-section input{
@@ -481,6 +506,7 @@ footer p{
 
 .dates-section{
     display: flex;
+    flex-direction: column;
     width: 100%;
 }
 .dates-section div{
@@ -488,18 +514,51 @@ footer p{
     flex-basis: 100%;
     width: 100%;
     flex: 1;
-    padding: 10px;
+    padding: 5px;
     align-items: center;
-    border: 1px solid black;
 }
 .dates-section label{
     text-align: right;
-    padding: 10px;
+    padding: 5px;
     width: 100%;
 }
 .dates-section input{
     width: 100%;
 } 
+
+.lodge-choice-section{
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+    flex: 1;
+    padding: 5px;
+    align-items: center;
+}
+.lodge-choice-section label{
+    text-align: right;
+    padding: 5px;
+    width: 50%;
+}
+.lodge-choice-section input{
+    width: 100%;
+} 
+
+.submit-button-section{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.submit-button-section input{
+    font-size: 150%;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px;   
+    margin: 10px;
+    color: black;
+    background-color: var(--accentColour)
+}
+
 
 @media (max-width: 800px) {
     .navbar {
