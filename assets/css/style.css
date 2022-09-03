@@ -136,6 +136,11 @@ body section{
     padding: 20px;
 }
 
+.park-section p{
+    text-align: center;
+    padding: 10px;
+}
+
 .park-item-container{
     display: flex;
     align-items: center;
