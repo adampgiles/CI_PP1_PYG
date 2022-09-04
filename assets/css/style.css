@@ -5,7 +5,7 @@
 :root{
     --lightColour: #fafafa; 
     --darkColour: #151515;
-    --accentColour: #FFD700;
+    --accentColour: #ffbf00;
     --lodgeEnglishNameColour: #4b4b4c;
 }
 
@@ -35,9 +35,8 @@ body section{
     position: relative;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 2px;
-    background-color: var(--darkColour);
-    border-bottom: 2px solid var(--accentColour);
+    background-color: var(--lightColour);
+    border-bottom: 4px solid var(--accentColour);
 }
 
 .brand-title{    
@@ -48,8 +47,7 @@ body section{
 .brand-title a{    
     font-family: 'Uncial Antiqua', cursive;
     text-decoration: none;
-    color: var(--accentColour);
-    text-decoration: underline;
+    color: var(--darkColour);
 }
 
 .brand-title a:hover {
@@ -75,7 +73,7 @@ body section{
 .navbar-links li a {
     display: block;
     text-decoration: none;     
-    color: var(--lightColour);
+    color: var(--darkColour);
     padding: .75rem;
 }
 
@@ -189,34 +187,41 @@ body section{
     flex: 1;
     padding: 10px;
     background-color: var(--accentColour);
-    border-top: 5px solid var(--darkColour);
 }
 
 .lodge-images{
-    margin: auto;
-    max-width: 60%;
+    display: flex;
+    max-width: 50%;
 }
 .lodge-images img{
     max-width: 100%;
+    object-fit: cover;
     border-radius: 20px;
 }
 
 .lodge-details{
     display: flex;
     flex-direction: column;
+    flex-shrink:0;
     flex: 1;
     max-width: 50%;
     padding: 10px;
+    margin: 10px;
+    background-color: var(--lightColour);
+    border-radius: 10px;
+}
+
+.lodge-details h2{
+    text-align: right;
+    font-weight: 600;
+    font-size: 125%;
+    padding: 5px;
 }
 
 .lodge-top{
     display: flex;    
     align-items: center;
     flex: 1;
-    
-    background-color: var(--lightColour);
-    border-radius: 10px;
-    margin-bottom: 5px;
 }
 .lodge-names h3{    
     font-weight: 500;
@@ -245,15 +250,11 @@ body section{
 .lodge-middle p{
     padding: 10px;
     align-items: center;
-    background-color: var(--lightColour);
-    border-radius: 10px;
-    margin-bottom: 5px;
+    
 }
 .lodge-included p{
     padding: 10px;
     font-weight: 500;
-    background-color: var(--lightColour);
-    border-radius: 10px;
 }
 
 .lodge-bottom{
