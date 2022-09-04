@@ -188,9 +188,14 @@ body section{
     font-size: 175%;
     padding: 20px;
 }
-
 .lodge-container{
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lodge{
+    margin: 5px;
     display: flex;
     justify-content: center;
     flex: 1;
@@ -653,7 +658,7 @@ footer p{
         background-color: var(--accentColour)
     }
 
-    .lodge-container{
+    .lodge{
         max-width: 97.5vw;
         flex-direction: column;
     }
