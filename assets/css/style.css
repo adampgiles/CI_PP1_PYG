@@ -22,7 +22,7 @@ body section{
     max-width: 1920px;
     margin: auto;
     overflow: hidden;
-    background-color: white;
+    background-color: var(--lightColour);
 }
 
 .home-section{
@@ -35,7 +35,7 @@ body section{
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--lightColour);
+    background-color: var(--darkColour);
     border-bottom: 4px solid var(--accentColour);
 }
 
@@ -47,11 +47,12 @@ body section{
 .brand-title a{    
     font-family: 'Uncial Antiqua', cursive;
     text-decoration: none;
-    color: var(--darkColour);
+    color: var(--accentColour);
+    text-decoration: underline;
 }
 
 .brand-title a:hover {
-    color: var(--accentColour);
+    color: var(--lightColour);
 }
 
 .navbar-links {
@@ -64,8 +65,6 @@ body section{
     padding: 5px;
 }
 
-
-
 .navbar-links li {
     list-style: none;
 }
@@ -73,7 +72,7 @@ body section{
 .navbar-links li a {
     display: block;
     text-decoration: none;     
-    color: var(--darkColour);
+    color: var(--lightColour);
     padding: .75rem;
 }
 
@@ -162,7 +161,7 @@ body section{
     flex-direction: column;
     text-align: center;
     border: 2px solid var(--accentColour); 
-    border-radius: 5px;   
+    border-radius: 20px;   
     flex: 1;
     align-self: stretch;
     margin: 25px;
@@ -186,16 +185,19 @@ body section{
     display: flex;
     flex: 1;
     padding: 10px;
-    background-color: var(--accentColour);
+    background-color: var(--darkColour);
 }
 
 .lodge-images{
     display: flex;
     max-width: 50%;
+    margin: 5px;
+    
 }
 .lodge-images img{
     max-width: 100%;
     object-fit: cover;
+    border: 2px solid var(--accentColour);
     border-radius: 20px;
 }
 
@@ -206,9 +208,10 @@ body section{
     flex: 1;
     max-width: 50%;
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
     background-color: var(--lightColour);
-    border-radius: 10px;
+    border: 2px solid var(--accentColour);
+    border-radius: 20px;
 }
 
 .lodge-details h2{
@@ -244,7 +247,7 @@ body section{
     padding: 20px;
 }
 .icon-container p{
-    padding: 5px;
+    padding: 10px;
 }
 
 .lodge-middle p{
@@ -255,6 +258,8 @@ body section{
 .lodge-included p{
     padding: 10px;
     font-weight: 500;
+    border: 2px solid var(--darkColour);
+    border-radius: 20px;
 }
 
 .lodge-bottom{
@@ -267,7 +272,7 @@ body section{
     font-weight: 600;
     font-size: 125%;
     color: var(--darkColour);
-    background-color: var(--lightColour);
+    background-color: var(--accentColour);
     border-radius: 10px;
 }
 
