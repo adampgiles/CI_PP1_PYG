@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
 @import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
 
-
 :root{
     --lightColour: #f6f6f6; 
     --darkColour: #151515;
@@ -95,6 +94,7 @@ body section{
     border: 2px solid black;
     border-radius: 20px;
 }
+
 .book-now-link a:hover{
     color: white !important;
     text-decoration: none !important;
@@ -112,6 +112,7 @@ body section{
     position: relative;
     text-align: center;
 }
+
 .home-image{
     max-height: 1080px;
 }
@@ -150,15 +151,18 @@ body section{
     font-size: 175%;
     padding: 20px;
 }
+
 .park-text{
     margin: auto;
     max-width: 1080px
 }
+
 .park-text p{
     text-align: center;
     padding: 20px;
     margin: 0;
 }
+
 .park-container{
     display: flex;
     justify-content: space-around;
@@ -169,6 +173,7 @@ body section{
     overflow: hidden;
     max-width: 800px;
 }
+
 .park-icon-container{
     display: flex;
     flex-direction: column;
@@ -181,6 +186,7 @@ body section{
     height: 175px;
     width: 175px;
 }
+
 .park-icon-container p{
     text-align: center;
     vertical-align: auto;
@@ -195,6 +201,7 @@ body section{
     font-size: 175%;
     padding: 20px;
 }
+
 .lodge-container{
     display: flex;
     flex-direction: column;
@@ -211,11 +218,13 @@ body section{
     max-width: 1080px;    
     background-color: var(--lightColour);
 }
+
 .lodge-left{  
     width: 50%;
     padding: 5px;
     border-radius: 20px;  
 }
+
 .carousel{
     padding: 10px;
     margin: auto;
@@ -245,29 +254,35 @@ body section{
     flex: 1;    
     margin: 10px;
 }
+
 .lodge-names{
     width: 50%;
 }
+
 .lodge-names h3{    
     font-weight: 500;
     font-size: 150%;
     padding: 0px 10px 0px 10px;
 } 
+
 .lodge-names h4{    
     font-weight: 500;
     font-size: 125%;
     padding: 0px 10px 0px 10px;
 } 
+
 .lodge-icons{
     display: flex;    
     flex: 1;
     justify-content: space-around;
 }
+
 .icon-container{
     display: flex;
     align-items: center;
     padding: 20px;
 }
+
 .icon-container p{
     align-items: center;
     padding: 10px;
@@ -279,6 +294,7 @@ body section{
     align-items: center;
     font-weight: 500;
 }
+
 .lodge-included p{
     padding: 10px;
     font-weight: 500;
@@ -286,18 +302,21 @@ body section{
     border-radius: 20px;    
     background-color: white;
 }
+
 .lodge-bottom{
     display: flex;  
     justify-content: space-around;  
     align-items: center;
     width: 100%;
 }
+
 .lodge-bottom h2{
     text-align: center;
     font-weight: 700;
     font-size: 175%;
     margin: 0;
 }
+
 .lodge-bottom button{
     font-size: 150%;
     font-weight: 600;
@@ -307,6 +326,151 @@ body section{
     background-color: var(--accentColour)
 }
 
+/* Booking section */
+.contact-page-info h2{
+    margin: auto;
+    text-align: center;
+    font-size: 150%;  
+    font-weight: 700;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.contact-page-info p{
+    margin: auto;
+    text-align: center;
+    font-size: 125%;  
+    font-weight: 400;
+    margin-right: auto;
+    padding: 20px;    
+    background-color: var(--lightColour);
+}
+
+.form-section{   
+    display: flex; 
+    justify-content: center;
+    max-width: 100% !important;
+    padding: 20px;
+    background-color: var(--lightColour);
+}
+
+.form-section label{    
+    font-weight: 500;
+}
+
+.name-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.name-section div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+    width: 100%;
+    flex: 1;
+    padding: 5px;
+    align-items: center;
+}
+
+.name-section label{
+    text-align: right;
+    padding: 5px;
+    width: 100%;
+}
+
+.name-section input{
+    width: 100%;
+} 
+
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-section div{
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+    flex: 1;
+    padding: 5px;
+    align-items: center;
+}
+
+.contact-section label{
+    text-align: right;
+    padding: 5px;
+    width: 100%;
+}
+
+.contact-section input{
+    width: 100%;
+} 
+
+.dates-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dates-section div{
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+    flex: 1;
+    padding: 5px;
+    align-items: center;
+}
+
+.dates-section label{
+    text-align: right;
+    padding: 5px;
+    width: 100%;
+}
+
+.dates-section input{
+    width: 100%;
+} 
+
+.lodge-choice-section{
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+    flex: 1;
+    padding: 5px;
+    align-items: center;
+}
+
+.lodge-choice-section label{
+    text-align: right;
+    padding: 5px;
+    width: 50%;
+}
+
+.lodge-choice-section input{
+    width: 100%;
+} 
+
+.submit-button-section{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.submit-button-section input{
+    font-size: 150%;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px;   
+    margin: 10px;
+    color: black;
+    background-color: var(--accentColour)
+}
+
+/* Contact Us section */
 .info-section h2{
     text-align: center;
     font-weight: 700;
@@ -340,7 +504,6 @@ body section{
 .map-container{
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 .map-container iframe{
@@ -366,148 +529,16 @@ footer p{
     font-size: 100%;
 }
 
-/* Contact Page */
-.contact-page-info h2{
-    margin: auto;
-    text-align: center;
-    font-size: 150%;  
-    font-weight: 700;
-    margin-right: auto;
-    padding: 30px;
-}
-.contact-page-info p{
-    margin: auto;
-    text-align: center;
-    font-size: 125%;  
-    font-weight: 400;
-    margin-right: auto;
-    padding: 20px;
-    
-    background-color: var(--lightColour);
-}
-
-.form-section{   
-    display: flex; 
-    justify-content: center;
-    max-width: 100% !important;
-    padding: 20px;
-    background-color: var(--lightColour);
-}
-
-.form-section label{    
-    font-weight: 500;
-}
-
-.name-section{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-}
-.name-section div{
-    display: flex;
-    justify-content: space-evenly;
-    flex-basis: 100%;
-    width: 100%;
-    flex: 1;
-    padding: 5px;
-    align-items: center;
-}
-.name-section label{
-    text-align: right;
-    padding: 5px;
-    width: 100%;
-}
-.name-section input{
-    width: 100%;
-} 
-
-.contact-section{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.contact-section div{
-    display: flex;
-    flex-basis: 100%;
-    width: 100%;
-    flex: 1;
-    padding: 5px;
-    align-items: center;
-}
-.contact-section label{
-    text-align: right;
-    padding: 5px;
-    width: 100%;
-}
-.contact-section input{
-    width: 100%;
-} 
-
-.dates-section{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.dates-section div{
-    display: flex;
-    flex-basis: 100%;
-    width: 100%;
-    flex: 1;
-    padding: 5px;
-    align-items: center;
-}
-.dates-section label{
-    text-align: right;
-    padding: 5px;
-    width: 100%;
-}
-.dates-section input{
-    width: 100%;
-} 
-
-.lodge-choice-section{
-    display: flex;
-    flex-basis: 100%;
-    width: 100%;
-    flex: 1;
-    padding: 5px;
-    align-items: center;
-}
-.lodge-choice-section label{
-    text-align: right;
-    padding: 5px;
-    width: 50%;
-}
-.lodge-choice-section input{
-    width: 100%;
-} 
-
-.submit-button-section{
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-}
-
-.submit-button-section input{
-    font-size: 150%;
-    font-weight: 600;
-    border-radius: 5px;
-    padding: 5px;   
-    margin: 10px;
-    color: black;
-    background-color: var(--accentColour)
-}
-
-
 @media (max-width: 800px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
+
     .toggle-button {
         display: block;       
     }
+
     .navbar-links {
         display: none;
         width: 100%;
@@ -516,20 +547,24 @@ footer p{
         top: 77px;  
         z-index: 1; 
     }
+
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
         background-color: var(--lightColour);
         padding: 5px;
     }
+
     .navbar-links ul li {
         text-align: center;
     }
+
     .navbar-links ul li a {
         padding: 10px 20px;
         color: var(--darkColour);
         font-weight: bold;
     }
+
     .navbar-links.active {
         display: flex;
     }
@@ -538,6 +573,7 @@ footer p{
     .home-image{
         height: 100vh;
     }
+
     .image-container{
         height: 100%;
     }
@@ -547,28 +583,34 @@ footer p{
         max-width: 97.5vw;
         flex-direction: column;
     }
+
     .lodge-left{
         width: 100%;
         padding: 0;
     }
+
     .lodge-right{
         padding: 0;
     }
+
     .lodge-top{
         flex-direction: column;
         padding: 0;
     }
+
     .lodge-names{
         width: 100%;
         text-align: center;
         padding: 5px;
     }
+
     .lodge-icons{
         width: 100%;
         padding: 0;
     }
+    
     .icon-container{
         padding: 0;
     }
-
 }
+
