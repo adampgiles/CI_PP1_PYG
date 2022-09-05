@@ -3,7 +3,7 @@
 
 
 :root{
-    --lightColour: #fafafa; 
+    --lightColour: #eeeeee; 
     --darkColour: #151515;
     --accentColour: #ffbf00;
     --lodgeEnglishNameColour: #4b4b4c;
@@ -19,14 +19,10 @@
 }
 
 body section{
+    margin: auto;   
     max-width: 1920px;
-    margin: auto;
+    background-color: white;    
     overflow: hidden;
-    background-color: var(--lightColour);
-}
-
-.home-section{
-    max-width: 1920px;
 }
 
 /* Responsive Navbar CSS code imported and modified from YouTube tutorial (https://www.youtube.com/watch?v=At4B7A4GOPg&t=155s) */
@@ -92,11 +88,6 @@ body section{
     color: var(--accentColour);
 }
 
-.body section{
-    max-width: 1920px;
-    margin: auto;
-}
-
 .body h2{
     font-size: 175%;
 }
@@ -141,44 +132,41 @@ body section{
     font-size: 175%;
     padding: 20px;
 }
-
-.park-section p{
-    text-align: center;
-    padding: 10px;
-}
-
-.park-item-container{
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    flex: 1;   
-    background-color: var(--darkColour);
-}
-
-.park-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    border: 2px solid var(--accentColour); 
-    border-radius: 20px;   
-    flex: 1;
-    align-self: stretch;
-    margin: 25px;
-    padding: 30px;    
+.park-text{
     background-color: var(--lightColour);
 }
-
-.park-item h3{
-    font-weight: 600;
-    font-size: 150%;
-    padding: 0px 10px 10px 10px;
+.park-text p{
+    text-align: center;
+    padding: 20px;
+    margin: 0;
 }
+.park-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--lightColour);
+    padding: 20px;
+    flex-wrap:wrap;
+    overflow: hidden;
+}
+.park-icon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: white;
+    border: 2px dotted var(--accentColour);
 
-.park-item p{
-    font-weight: 500;
-    padding: 10px;
+    border-radius: 50%;
+    height: 175px;
+    width: 175px;
+}
+.park-icon-container p{
+    text-align: center;
+    vertical-align: auto;
+    padding: 5px;
+    margin: 0;
 }
 
 /* Lodge Section */
@@ -280,7 +268,8 @@ body section{
     border-radius: 20px;
 }
 .lodge-bottom{
-    display: flex;    
+    display: flex;  
+    justify-content: space-around;  
     align-items: center;
 }
 .lodge-bottom h2{
@@ -292,6 +281,7 @@ body section{
 .lodge-bottom button{
     margin: 10px;
     padding: 10px;
+    width: 50%;
     font-weight: 600;
     font-size: 150%;
     color: var(--darkColour);
