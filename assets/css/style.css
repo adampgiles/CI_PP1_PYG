@@ -337,7 +337,7 @@ body section{
 
 footer{
     padding-top: 10px;
-    background-color: var(--darkColour);
+    background-color: var(--lightColour);
     border-top: 2px solid var(--accentColour);
 }
 
@@ -345,7 +345,7 @@ footer div{
     margin: auto;
     text-align: center;
     padding: 5px;
-    color: var(--lightColour);
+    color: var(--darkColour);
 }
 
 footer p{
