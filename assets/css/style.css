@@ -292,7 +292,7 @@ body section{
 }
 
 .lodge-middle p{
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
     align-items: center;
     font-weight: 500;
     margin: 0;
@@ -627,6 +627,10 @@ footer p{
     
     .icon-container{
         padding: 0;
+    }
+
+    .lodge-middle p{
+        padding: 0px 10px 10px 10px;
     }
 
     .lodge-bottom h2{
