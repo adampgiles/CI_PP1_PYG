@@ -110,6 +110,10 @@ body section{
     text-decoration: none !important;
 }
 
+.body h1{
+    font-size: 175%;
+}
+
 .body h2{
     font-size: 175%;
 }
@@ -154,7 +158,7 @@ body section{
     background-color: var(--lightColour);
 }
 
-.park-section h2{
+.park-section h1{
     background-color: white;
     text-align: center;
     font-weight: 700;
