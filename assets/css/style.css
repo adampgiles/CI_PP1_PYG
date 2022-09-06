@@ -317,13 +317,18 @@ body section{
     margin: 0;
 }
 
-.lodge-bottom button{
+.lodge-bottom a{
     font-size: 150%;
     font-weight: 600;
     border-radius: 5px;
+    text-decoration: none;
     padding: 5px;
     color: black;
-    background-color: var(--accentColour)
+    background-color: var(--accentColour);
+    border: 2px solid black;
+}
+.lodge-bottom a:hover{
+    color: white;
 }
 
 /* Booking section */
@@ -468,6 +473,9 @@ body section{
     margin: 10px;
     color: black;
     background-color: var(--accentColour)
+}
+.submit-button-section input:hover{
+    color: white;
 }
 
 /* Contact Us section */
