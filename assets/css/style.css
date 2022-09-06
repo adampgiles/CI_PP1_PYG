@@ -430,7 +430,7 @@ body section{
 .dates-section div{
     display: flex;
     flex-basis: 100%;
-    width: 100%;
+    min-width: 100%;
     flex: 1;
     padding: 5px;
     align-items: center;
