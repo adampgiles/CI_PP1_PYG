@@ -320,6 +320,7 @@ body section{
 
 .lodge-bottom a{
     font-size: 150%;
+    text-align: center;
     font-weight: 600;
     border-radius: 5px;
     text-decoration: none;
@@ -345,10 +346,10 @@ body section{
 .contact-page-info p{
     margin: auto;
     text-align: center;
-    font-size: 125%;  
+    font-size: 100%;  
     font-weight: 400;
     margin-right: auto;
-    padding: 20px;    
+    padding: 10px;    
     background-color: var(--lightColour);
 }
 
@@ -356,7 +357,7 @@ body section{
     display: flex; 
     justify-content: center;
     max-width: 100% !important;
-    padding: 20px;
+    padding: 10px;
     background-color: var(--lightColour);
 }
 
