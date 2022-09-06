@@ -45,7 +45,6 @@ body section{
     font-family: 'Uncial Antiqua', cursive;
     text-decoration: none;
     color: var(--darkColour);
-    text-decoration: underline;  
     margin: 5px;
 }
 
@@ -581,7 +580,8 @@ footer p{
     padding: 5px;
 }
 .error-container a{
-    max-width: 25vh;
+    width: 100px;
+    height: 100px;
     margin: 5px 20px 20px 20px;
     background-color: var(--accentColour);
     border: 2px solid var(--darkColour);
