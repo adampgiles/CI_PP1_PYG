@@ -32,6 +32,7 @@ body section{
     align-items: center;
     background-color: var(--lightColour);
     border-bottom: 4px solid var(--accentColour);
+    padding: 0;
 }
 
 .brand-title{    
@@ -552,7 +553,7 @@ footer p{
         width: 100%;
         position: absolute;
         height: fit-content;
-        top: 77px;  
+        top: 75px;  
         z-index: 1; 
     }
 
