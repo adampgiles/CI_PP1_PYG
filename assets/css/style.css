@@ -14,12 +14,10 @@
     padding: 0;
     font-family: Montserrat;
     font-weight: 400;
-    font-size: 100%;
 }
 
 body section{
     margin: auto;   
-    max-width: 1920px;
     background-color: white;    
     overflow: hidden;
 }
@@ -127,7 +125,7 @@ body section{
 
 .home-image h3{
     position: absolute;
-    top: 50%;
+    top: 50vh;
     left: 0;
     right: 0;
     transform: translate(0, -50%);
