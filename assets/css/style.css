@@ -566,22 +566,20 @@ footer p{
     text-align: center;
     font-size: 150%;
     font-weight: 700;
-    padding: 10px;
+    padding: 5px;
 }
 .error-container a{
-    text-decoration: none;
-    font-size: 150%;
-    font-weight: 600;
-    border-radius: 5px;
-    padding: 5px;  
-    margin: 20px; 
-    color: black;
+    max-width: 25vh;
+    margin: 5px 20px 20px 20px;
     background-color: var(--accentColour);
     border: 2px solid var(--darkColour);
+    border-radius: 20px;
+    
 }
-
-.grey-background{
-    background-color: var(--lightColour);
+.error-container img{
+    color: black;
+    width: 100%;
+    padding: 10px;
 }
 
 @media (max-width: 800px) {
