@@ -199,7 +199,7 @@ body section{
 
 .park-icon-container p{
     text-align: center;
-    vertical-align: auto;
+    vertical-align: middle;
     padding: 5px;
     margin: 0;
 }
