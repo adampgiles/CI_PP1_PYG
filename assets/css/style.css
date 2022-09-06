@@ -288,12 +288,14 @@ body section{
     align-items: center;
     padding: 10px;
     font-weight: 500;
+    margin: 0;
 }
 
 .lodge-middle p{
     padding: 10px;
     align-items: center;
     font-weight: 500;
+    margin: 0;
 }
 
 .lodge-included p{
@@ -302,6 +304,7 @@ body section{
     border: 2px solid var(--darkColour);
     border-radius: 20px;    
     background-color: white;
+    margin: 0;
 }
 
 .lodge-bottom{
@@ -485,14 +488,15 @@ body section{
     text-align: center;
     font-weight: 700;
     font-size: 200%;
-    padding: 20px 20px 10px 20px;
-}
+    padding: 20px 20px 10px 20px; 
+}   
 
 .info-section p{
     text-align: center;
     font-weight: 600;
     font-size: 100%;
     padding: 10px;
+    margin: 0;
 }
 
 .social-media{
@@ -621,6 +625,26 @@ footer p{
     
     .icon-container{
         padding: 0;
+    }
+
+    .lodge-bottom h2{
+        text-align: center;
+        font-weight: 700;
+        font-size: 150%;
+        margin: 10px;
+    }
+    
+    .lodge-bottom a{
+        font-size: 125%;
+        text-align: center;
+        font-weight: 600;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 5px;
+        margin: 10px;
+        color: black;
+        background-color: var(--accentColour);
+        border: 2px solid black;
     }
 }
 
