@@ -34,19 +34,30 @@ body section{
 }
 
 .brand-title{    
+    display: flex;
+    align-items: center;
+    justify-content: start;
     font-size: 150%;
     margin: 10px 10px 10px 15px;
 }
 
-.brand-title a{    
+.brand-title a{   
     font-family: 'Uncial Antiqua', cursive;
     text-decoration: none;
     color: var(--darkColour);
-    text-decoration: underline;
+    text-decoration: underline;  
+    margin: 5px;
 }
 
 .brand-title a:hover {
     color: var(--accentColour);
+}
+
+.brand-icon{
+    width: 10%;
+}
+.brand-icon img{
+    width: 100%;
 }
 
 .navbar-links {
@@ -620,6 +631,10 @@ footer p{
 
     .navbar-links.active {
         display: flex;
+    }
+
+    .brand-title{
+        margin: 5px;
     }
 
     /* Home section */
