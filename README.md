@@ -76,3 +76,9 @@ User stories have been seperated into two groups; New users and returning users.
 3. As the site owner, I want users to have information on how to contact us.
 4. As the site owner, I want the website to be responsive so user's can browse on desktop and mobile devices.
 5. As the site owner, I want users to be able to navigate back to the website's home page if they encounter a page which does not exist.
+
+## Design
+
+### Colour
+The site's colour scheme consists of five key colours; White, off-white, mid-grey, off-black and light-orange. Off-white and off-black where used in each section to ensure there was adequate contrast, with UI components in the accent-colour of light-orange. Mid-grey was used for the english lodge names. White and off-white were alternated between for ajacent sections, to clearly define the sections.
+![Alt text](/assets/docs/features/colourScheme.png "Colour Scheme")
