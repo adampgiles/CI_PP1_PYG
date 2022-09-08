@@ -211,3 +211,16 @@ W3C Markup Validation Service was utilised to validate the HTML of the website. 
 <details><summary>404 Page</summary>
 <img src="docs/validation/404HtmlValidation.JPG">
 </details>
+
+### CSS Validation
+
+W3C Jigsaw CSS Validation Service was utilised to validate the website's CSS. When validating the website, 15 errors are found and multiple warnings. However, these errors and warnings are linked to Bootstrap v5.2.0, in part for it's use of CSS3. 
+When validating my own CSS, no errors and the only warnings are due to CSS variables not being statistically checked.
+
+<details><summary>Website</summary>
+<img src="docs/validation/websiteCSSErrorValidation.JPG">
+<img src="docs/validation/websiteCSSWarningValidation.JPG">
+</details>
+<details><summary>style.css</summary>
+<img src="docs/validation/websiteOwnCSSValidation.JPG">
+</details>
