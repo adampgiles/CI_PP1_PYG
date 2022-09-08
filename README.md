@@ -165,3 +165,12 @@ The website consists of five sections with eight features.
 - Meets User stories: 2, 3, 5, 10, 13.
 
 ![Lodge-Section](docs/features/lodgeSection.JPG)
+
+### Booking Form
+- Provides a statement on how to request a lodge booking.
+- Provides a form for a user to arrange a lodge booking.
+- Contains labels and inputs for First name, Last name, Contact number, Email address, Check-in date, Check-out date and a button to submit the form.
+- Responsive layout for smaller screens.
+- Meets User stories: 5, 10, 13.
+
+![Booking-Form](docs/features/bookingForm.JPG)
