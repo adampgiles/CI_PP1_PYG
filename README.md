@@ -242,3 +242,26 @@ To test the performance of the website, Lighthouse in Google Chrome developer to
 <details><summary>Performance Test Result</summary>
 <img src="docs/validation/websitePerformanceValidation.JPG">
 </details>
+
+### Device Testing
+
+The website was tested using Google Chrome Developer Tools - Device Toolbar to simulate different device viewports. 
+
+The following device viewports were tested using the Device Toolbar;
+- iPad Pro (Tablet screen test)
+- iPhone 5/SE (Mobile screen test)
+
+The website was also tested on the following physical devices;
+- iPhone X
+- iPhone 11 Pro Max
+- Samsung Galaxy Note 8
+
+The following resolutions were tested using a Windows desktop PC;
+- 1920 x 1080
+- 3440 x 1440
+
+### Browser Compatibility
+
+The website was tested on the following browsers:
+- Google Chrome
+- Mozilla Firefox
