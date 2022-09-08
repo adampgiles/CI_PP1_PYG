@@ -191,3 +191,10 @@ The website consists of five sections with eight features.
 - Contains a disclaimer and copyright notice.
 
 ![Footer](docs/features/footer.JPG)
+
+### 404 Page
+- Page is display when a user encounter a page that does not exist (HTTP 404 response code).
+- User provided with a link to return to the main site, or can use the navigation bar.
+- Meets User stories: 15.
+
+![404-Page](docs/features/404Page.JPG)
