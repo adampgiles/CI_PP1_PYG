@@ -60,22 +60,22 @@ User stories have been seperated into two groups; New users and returning users.
 
 1. As a new user, I want to know the location of the resort so I know if it in an area where I would like to visit and to plan my journey.
 2. As a new user, I want to know what lodges are available at the resort to ensure I get one that will accommodate my party size.
-4. As a new user, I want to see pricing information for the lodges.
-5. As a new user, I want to see information on the park's office opening times.
-6. As a new user, I want to see information on how to book a lodge stay.
+3. As a new user, I want to see pricing information for the lodges.
+4. As a new user, I want to see information on the park's office opening times.
+5. As a new user, I want to see information on how to book a lodge stay.
 
 #### Returning Users
-1. As a returning user, I want to see information on the park's location to support with planning my journey to the park after making a booking.
-2. As a returning user, I want to see contact information for the park so I know where I can direct any queries or issues.
-3. As a returning user, I want to see information on the check-in times.
-4. As a returning user, I want to see information on the check-out times.
+6. As a returning user, I want to see information on the park's location to support with planning my journey to the park after making a booking.
+7. As a returning user, I want to see contact information for the park so I know where I can direct any queries or issues.
+8. As a returning user, I want to see information on the check-in times.
+9. As a returning user, I want to see information on the check-out times.
 
 #### Site Owner
-1. As the site owner, I want users to see information of how to book a lodge stay.
-2. As the site owner, I want users to see information of the park's location.
-3. As the site owner, I want users to have information on how to contact us.
-4. As the site owner, I want the website to be responsive so user's can browse on desktop and mobile devices.
-5. As the site owner, I want users to be able to navigate back to the website's home page if they encounter a page which does not exist.
+10. As the site owner, I want users to see information of how to book a lodge stay.
+11. As the site owner, I want users to see information of the park's location.
+12. As the site owner, I want users to have information on how to contact us.
+13. As the site owner, I want the website to be responsive so user's can browse on desktop and mobile devices.
+14. As the site owner, I want users to be able to navigate back to the website's home page if they encounter a page which does not exist.
 
 ## Design
 
@@ -141,3 +141,17 @@ The website consists of five sections with eight features.
 ![Navbar-Desktop](docs/features/navbarDesktop.JPG)
 ![Navbar-Mobile](docs/features/navbarMobile.JPG)
 ![Navbar-Dropdown-Mobile](docs/features/navbarDropdownMobile.JPG)
+
+### Landing Image
+- Image displaying a beautiful woodland trail, giving the user a clear image of the parks atmosphere and surroundings.
+- Overlay text "Luxury Lodges in the heart of South Wales" clearly indicates what the site is about and general location.
+
+![Landing-Image](docs/features/landingImage.JPG)
+
+### The Park Section
+- Provides a welcome message.
+- Gives a description of the park and what service it provides.
+- Provides succinct information on key park features, using circular containers with icons and text. 
+- Meets User stories: 1, 6, 11.
+
+![Park-Section](docs/features/parkSection.JPG)
