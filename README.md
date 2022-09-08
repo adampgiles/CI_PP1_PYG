@@ -224,3 +224,13 @@ When validating my own CSS, no errors and the only warnings are due to CSS varia
 <details><summary>style.css</summary>
 <img src="docs/validation/websiteOwnCSSValidation.JPG">
 </details>
+
+## Testing
+
+### Accessibility
+
+WAVE WebAIM web accessibility evaluation tool was utilised to ensure the website met accessibility standards, passed with 0 errors.
+
+<details><summary>Accessibility Test Result</summary>
+<img src="docs/validation/accessibilityValidation.JPG">
+</details>
