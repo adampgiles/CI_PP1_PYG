@@ -2,11 +2,33 @@
 
 ## Table of Content
 
-1. [Project Goals](#project-goals)
-2. [User Experience](#user-experience)
-    1. [Target Audience](#target-audience)
-    2. [User stories](#user-stories)
-    2. [Wireframes](#wireframes)
+- [Project Goals](#project-goals)
+- [User Experience](#user-experience)
+    - [Target Audience](#target-audience)
+    - [User stories](#user-stories)
+    - [Wireframes](#wireframes)
+- [Design](#design)
+    - [Colour](#colour)
+    - [Fonts](#fonts)
+    - [Structure](#structure)
+    - [Wireframes](#wireframes)
+- [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Frameworks, Libraries & Tools](#frameworks-libraries--tools)
+- [Features](#features)
+- [Validation](#validation)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
+- [Testing](#testing)
+    - [Accessibility](#accessibility)
+    - [Performance](#performance)
+    - [Performing tests on various devices](#performing-tests-on-various-devices)
+    - [Browser compatability](#browser-compatability)
+    - [Testing user stories](#testing-user-stories)
+- [Bugs](#bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
 
 ## Project Goals
 Parc Y Glowyr is an adults only holiday park providing luxury lodge accommodations in the heart of the South Wales Valleys.
@@ -38,7 +60,6 @@ User stories have been seperated into two groups; New users and returning users.
 
 1. As a new user, I want to know the location of the resort so I know if it in an area where I would like to visit and to plan my journey.
 2. As a new user, I want to know what lodges are available at the resort to ensure I get one that will accommodate my party size.
-3. As a new user, I want to know what activities are available at the park.
 4. As a new user, I want to see pricing information for the lodges.
 5. As a new user, I want to see information on the park's office opening times.
 6. As a new user, I want to see information on how to book a lodge stay.
@@ -48,3 +69,10 @@ User stories have been seperated into two groups; New users and returning users.
 2. As a returning user, I want to see contact information for the park so I know where I can direct any queries or issues.
 3. As a returning user, I want to see information on the check-in times.
 4. As a returning user, I want to see information on the check-out times.
+
+#### Site Owner
+1. As the site owner, I want users to see information of how to book a lodge stay.
+2. As the site owner, I want users to see information of the park's location.
+3. As the site owner, I want users to have information on how to contact us.
+4. As the site owner, I want the website to be responsive so user's can browse on desktop and mobile devices.
+5. As the site owner, I want users to be able to navigate back to the website's home page if they encounter a page which does not exist.
