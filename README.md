@@ -198,3 +198,16 @@ The website consists of five sections with eight features.
 - Meets User stories: 15.
 
 ![404-Page](docs/features/404Page.JPG)
+
+## Validation
+
+### HTML Validation
+
+W3C Markup Validation Service was utilised to validate the HTML of the website. Both the main page and 404 page pass with no errors or no warnings to show.
+<details><summary>Main Page</summary>
+<img src="docs/validation/indexHtmlValidation.JPG">
+</details>
+
+<details><summary>404 Page</summary>
+<img src="docs/validation/404HtmlValidation.JPG">
+</details>
