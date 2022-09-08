@@ -265,3 +265,14 @@ The following resolutions were tested using a Windows desktop PC;
 The website was tested on the following browsers:
 - Google Chrome
 - Mozilla Firefox
+
+## Bugs
+
+| Bug                                                                                                               | Fix                                                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| Image carousels control input only affecting the first image carousel                                             | Set a unique id for each image carousel and referenced this id for each carousels inputs                                                  |
+| Navigation bar dropdown menu not visable when clicking hamburger icon                                             | Set the dropdown menu's z-axis to 1                                                                                                       |
+| Custom CSS code for Bootstrap components not being actioned                                                       | Placed style.css link below the Bootstrap css link in html files                                                                          |
+| Image carousels resizing and moving other components when moving to next or previous image                        | fixed bootstrap image width to 100%                                                                                                       |
+| Hero-image overlay text partially hidden at the bottom of the image on tablet screens                             | Set the image "top" value to "50%" instead of "50vh"                                                                                      |
+| Gap showing above navigation bar dropdown menu                                                                    | Moved dropdown menus postion up by 1px                                                                                                    |
