@@ -136,6 +136,7 @@ The website consists of five sections with eight features.
 - Contains the site logo, name and navigation links.
 - Logo and site name, when clicked return the user to the landing section.
 - Navigation links, when clicked take the user to the relevant sections.
+- Links change to the accent colour when hovered over.
 - Navigation bar condenses to a hamburger icon and dropdown menu on smaller screens.
 
 ![Navbar-Desktop](docs/features/navbarDesktop.JPG)
@@ -174,3 +175,13 @@ The website consists of five sections with eight features.
 - Meets User stories: 5, 10, 13.
 
 ![Booking-Form](docs/features/bookingForm.JPG)
+
+### Contact Section
+- Provides information on the park's address, telephone and email details, office times, check-in/check-out times, social media links and a embedded google map of the park's location (Currently showing fictional area of location).
+- Email address features a link to open the users email application to send an email.
+- Social media links provide links to the social media pages, which open in a new tab (Links currently go to social medai main page as no social media sites exist for the park).
+- Social media icon's change to the accent colour when hovered over.
+- Responsive layout for smaller screens.
+- Meets User stories: 1, 4, 6, 7, 8, 9, 11, 12, 13.
+
+![Contact-Section](docs/features/contactSection.JPG)
