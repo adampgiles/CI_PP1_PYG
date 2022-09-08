@@ -132,7 +132,7 @@ A separate 404 error page was created.
 The website consists of five sections with eight features.
 
 ### Navigation Bar
-- Situated on the Main site page and 404 page.
+- Situated on the main site page and 404 page.
 - Contains the site logo, name and navigation links.
 - Logo and site name, when clicked return the user to the landing section.
 - Navigation links, when clicked take the user to the relevant sections.
@@ -185,3 +185,9 @@ The website consists of five sections with eight features.
 - Meets User stories: 1, 4, 6, 7, 8, 9, 11, 12, 13.
 
 ![Contact-Section](docs/features/contactSection.JPG)
+
+### Footer
+- Situated on the main site page and 404 page.
+- Contains a disclaimer and copyright notice.
+
+![Footer](docs/features/footer.JPG)
