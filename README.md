@@ -86,3 +86,23 @@ The site's colour scheme consists of five key colours; White, off-white, mid-gre
 ### Fonts
 
 Two fonts were used on the site; Montserrat for the main site font, which is a clear and legible font. With Uncial Antiqua bringing a celtic and regal feel to the website, while maintaining readability.
+
+### Structure
+
+The website structure consists of five clearly defined sections; Landing, The Park, Our Lodges, Booking and Contact Us. A responsive navigation bar containing the site logo, site name and links to page sections is situated at the top of the page. On smaller screen sizes, the navigation bar links are situated within a dropdown menu which is accessed via a hamburger icon.
+
+The five sections are detailed below;
+
+- A landing section contains the navigation bar and a large image with overlay text. 
+- A park section contains a welcome title, a paragraph with information on the park and five circular icons with text showing key features of the park.
+- A lodge section contains detailed information on the available lodges, with each lodge container holding an image carousel, icons for beds and parking spaces, text on what is included with he lodege and a link to the page's booking form.
+- A booking section contains a booking form.
+- A contact section contains details on the park's location, contact details, operating times, check-in/check-out times, social media links and a map of the park's location(As the park is fictional, this shows the area where the park would exist).
+
+The footer of the site contains a disclaimer informing the user that the site is fictional and a copyright notice.
+
+A 404 page was created to ensure that a user can easily navigate back to the park's site if they encounter a page which does not exist.
+
+At the bottom of the page there is a footer with links to social media and copyrights info.
+
+A separate 404 error page was created.
