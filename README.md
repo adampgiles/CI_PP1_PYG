@@ -81,7 +81,7 @@ User stories have been seperated into two groups; New users and returning users.
 
 ### Colour
 The site's colour scheme consists of five key colours; White, off-white, mid-grey, off-black and light-orange. Off-white and off-black where used in each section to ensure there was adequate contrast, with UI components in the accent-colour of light-orange. Mid-grey was used for the english lodge names. White and off-white were alternated between for ajacent sections, to clearly define the sections.
-![Alt text](/assets/docs/features/colourScheme.png "Colour Scheme")
+![Alt text](/docs/features/colourScheme.png "Colour Scheme")
 
 ### Fonts
 
@@ -126,3 +126,18 @@ A separate 404 error page was created.
 - [Google Maps](https://www.google.com/maps), used to create the contact us section map.
 - [Pixabay.com](Pixabay.com), used to acquire the site's images.
 - [WC3 Validator](https://validator.w3.org/), [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/), [Wave Validator](https://wave.webaim.org/), [Lighthouse](https://developers.google.com/web/tools/lighthouse/) and [Am I Responsive](http://ami.responsivedesign.is/), used to test the site's code, performance, accessibilty and responsiveness. 
+
+## Features
+
+The website consists of five sections with eight features.
+
+### Navigation Bar
+- Situated on the Main site page and 404 page.
+- Contains the site logo, name and navigation links.
+- Logo and site name, when clicked return the user to the landing section.
+- Navigation links, when clicked take the user to the relevant sections.
+- Navigation bar condenses to a hamburger icon and dropdown menu on smaller screens.
+
+![Navbar-Desktop](docs/features/navbarDesktop.JPG)
+![Navbar-Mobile](docs/features/navbarMobile.JPG)
+![Navbar-Dropdown-Mobile](docs/features/navbarDropdownMobile.JPG)
