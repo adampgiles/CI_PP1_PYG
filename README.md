@@ -152,6 +152,16 @@ The website consists of five sections with eight features.
 - Provides a welcome message.
 - Gives a description of the park and what service it provides.
 - Provides succinct information on key park features, using circular containers with icons and text. 
-- Meets User stories: 1, 6, 11.
+- Responsive layout for smaller screens.
+- Meets User stories: 1, 6, 11, 13.
 
 ![Park-Section](docs/features/parkSection.JPG)
+
+### Our Lodges Section
+- Provides information on the park's three lodge types.
+- Each lodge sub-section contains a Bootstrap image carousel (three images), Lodge name (Welsh and English), pricing, icons for bed and parking space count, brief description, list of incuded lodge features and a booking link.
+- Image carousel automatically scrolls through images, can also be manually scrolled.
+- Responsive layout for smaller screens.
+- Meets User stories: 2, 3, 5, 10, 13.
+
+![Lodge-Section](docs/features/lodgeSection.JPG)
