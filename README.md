@@ -82,3 +82,7 @@ User stories have been seperated into two groups; New users and returning users.
 ### Colour
 The site's colour scheme consists of five key colours; White, off-white, mid-grey, off-black and light-orange. Off-white and off-black where used in each section to ensure there was adequate contrast, with UI components in the accent-colour of light-orange. Mid-grey was used for the english lodge names. White and off-white were alternated between for ajacent sections, to clearly define the sections.
 ![Alt text](/assets/docs/features/colourScheme.png "Colour Scheme")
+
+### Fonts
+
+Two fonts were used on the site; Montserrat for the main site font, which is a clear and legible font. With Uncial Antiqua bringing a celtic and regal feel to the website, while maintaining readability.
