@@ -364,6 +364,57 @@ The website was tested on the following browsers:
 <img src="...">
 </details>
 
+10. As the site owner, I want users to see information of how to book a lodge stay.
+
+| **Feature**     | **Action Required**             | **Expected Outcome**            | **Actual Outcome**|
+| --------------- | ------------------------------- | ------------------------------- | ----------------- |
+| Booking Form    | Navigate to the Booking Form    | Find the booking form           | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="...">
+</details>
+
+11. As the site owner, I want users to see information of the park's location.
+
+| **Feature**     | **Action Required**             | **Expected Outcome**            | **Actual Outcome**|
+| --------------- | ------------------------------- | ------------------------------- | ----------------- |
+| Contact Section | Navigate to the Contact section | Find the park's address         | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="...">
+</details>
+
+12. As the site owner, I want users to have information on how to contact us.
+
+| **Feature**     | **Action Required**             | **Expected Outcome**            | **Actual Outcome**|
+| --------------- | ------------------------------- | ------------------------------- | ----------------- |
+| Contact Section | Navigate to the Contact section | Find the park's contact details | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="...">
+</details>
+
+13. As the site owner, I want the website to be responsive so user's can browse on desktop and mobile devices.
+
+The website was tested using Google Chrome Developer Tools - Device Toolbar to simulate different device viewports.
+The website was also tested on physical mobile devices. The website is fully responsive.
+
+<details><summary>Screenshots</summary>
+<img src="...">
+<img src="...">
+<img src="...">
+</details>
+
+14. As the site owner, I want users to be able to navigate back to the website's home page if they encounter a page which does not exist.
+
+| **Feature**     | **Action Required**                                                                                                              | **Expected Outcome**            | **Actual Outcome**|
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ----------------- |
+| 404 Page        | Page displays when request triggers HTTP 404 response code, user can use navigation bar or page body link to return to main page | User returns to the main page   | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="...">
+</details>
+
 ## Bugs
 
 | Bug                                                                                                               | Fix                                                                                                                                       |
