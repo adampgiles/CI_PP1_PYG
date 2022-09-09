@@ -272,6 +272,58 @@ The website was tested on the following browsers:
 - Google Chrome
 - Mozilla Firefox
 
+### User Story Testing
+
+1. As a new user, I want to know the location of the resort so I know if it in an area where I would like to visit and to plan my journey.
+
+| **Feature**     | **Action Required**             | **Expected Outcome**         | **Actual Outcome**|
+| --------------- | ------------------------------- | ---------------------------- | ----------------- |
+| Contact Section | Navigate to the Contact section | Find the park's address      | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="...">
+</details>
+
+2. As a new user, I want to know what lodges are available at the resort to ensure I get one that will accommodate my party size.
+
+| **Feature**     | **Action Required**             | **Expected Outcome**         | **Actual Outcome**|
+| --------------- | ------------------------------- | ---------------------------- | ----------------- |
+| Lodge Section   | Navigate to the Lodge section   | Find the lodge details       | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="...">
+</details>
+
+3. As a new user, I want to see pricing information for the lodges.
+
+| **Feature**     | **Action Required**             | **Expected Outcome**         | **Actual Outcome**|
+| --------------- | ------------------------------- | ---------------------------- | ----------------- |
+| Lodge Section   | Navigate to the Lodge section   | Find the lodge pricing       | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="...">
+</details>
+
+4. As a new user, I want to see information on the park's office opening times.
+
+| **Feature**     | **Action Required**             | **Expected Outcome**         | **Actual Outcome**|
+| --------------- | ------------------------------- | ---------------------------- | ----------------- |
+| Contact Section | Navigate to the Contact section | Find the office times        | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="...">
+</details>
+
+5. As a new user, I want to see information on how to book a lodge stay.
+
+| **Feature**     | **Action Required**             | **Expected Outcome**         | **Actual Outcome**|
+| --------------- | ------------------------------- | ---------------------------- | ----------------- |
+| Booking Form    | Navigate to the Booking Form    | Find the booking form        | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="...">
+</details>
+
 ## Bugs
 
 | Bug                                                                                                               | Fix                                                                                                                                       |
