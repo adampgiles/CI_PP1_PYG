@@ -1,4 +1,10 @@
-# Parc Y Glowyr (MS1)
+# Parc Y Glowyr <img src="assets\images\daffodil_icon.svg" style="width: 40px;height:40px;">
+
+**Developer: Adam Giles**
+
+![Mockup image](docs/am_i_responsive_pyg.JPG)
+
+[Live website](https://adampgiles.github.io/CI_PP1_PYG/)
 
 ## Table of Content
 
