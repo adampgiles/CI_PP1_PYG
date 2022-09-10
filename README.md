@@ -448,3 +448,16 @@ The website was deployed using GitHub Pages by following these steps:
 5. Change the current working directory to the location where you would like the cloned directory.
 6. Type "git clone " and paste the URL from the clipboard (example: "$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY")
 7. Press Enter to create.
+
+## Credits
+
+### Images
+- [Daffodil Icon](assets/images/daffodil_icon.svg): Icon by [SVG Repo](https://www.svgrepo.com/svg/137362/daffodil) (CC0 Licence - Public Domain).
+- Hero/Landing image and all lodge images from [Pixabay](https://pixabay.com/) (Pixabay Licence - Free for commercial use, no attribution required).
+- Social Media, Lodge section and Hamburger Icons taken from [FontAwesome](https://fontawesome.com/).
+
+### Code
+
+- Navigation Bar created and modified using code from a Youtube tutorial by [Web Dev Simplified](https://www.youtube.com/watch?v=At4B7A4GOPg&t=155s)
+- [Image Carousel](https://getbootstrap.com/docs/5.2/components/carousel/#with-indicators) with indicators was created using Bootrap v5.2 documentation code.
+- A Google Map was embedded using code from [Google Maps Platform](https://developers.google.com/maps/documentation/embed/get-started)
