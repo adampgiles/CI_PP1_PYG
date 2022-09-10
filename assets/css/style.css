@@ -125,34 +125,22 @@ body section{
 }
 
 /* Landing/Home Section */
-.image-container{
-    position: relative;
-    text-align: center;
+.image-container{    
+    background: url("../images/hero_image.webp") no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.home-image{
-    max-height: 1080px;
-}
-
-.home-image img{
-    height: 100%;
+.image-container h3{
     width: 100%;
-    object-fit: cover;  
-    object-position: center;    
-}
-
-.home-image h3{
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    transform: translate(0, -50%);
     background-color: rgba(0, 0, 0, 0.65);
-    padding: 1%;
+    padding: 10px;
     text-align: center;
     color: white;
-    font-size: 170%;
-    font-weight: 500;
 }
 
 /* Park Section */
@@ -647,12 +635,9 @@ footer p{
     }
 
     /* Home section */
-    .home-image{
-        height: 100vh;
-    }
-
     .image-container{
-        height: 100%;
+        background-image: url("../images/hero_image_small.webp"); 
+        height: 40vh;
     }
 
     /* Lodge section */
