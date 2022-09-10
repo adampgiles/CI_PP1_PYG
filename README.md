@@ -281,8 +281,9 @@ The website was tested on the following browsers:
 | Contact Section | Navigate to the Contact section | Find the park's address         | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="...">
+<img src="docs/user_story_testing/user_story_location.jpg">
 </details>
+
 
 2. As a new user, I want to know what lodges are available at the resort to ensure I get one that will accommodate my party size.
 
@@ -291,8 +292,9 @@ The website was tested on the following browsers:
 | Lodge Section   | Navigate to the Lodge section   | Find the lodge details          | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="...">
+<img src="docs/user_story_testing/user_story_lodge_details.jpg">
 </details>
+
 
 3. As a new user, I want to see pricing information for the lodges.
 
@@ -301,8 +303,9 @@ The website was tested on the following browsers:
 | Lodge Section   | Navigate to the Lodge section   | Find the lodge pricing          | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="...">
+<img src="docs/user_story_testing/user_story_lodge_price.jpg">
 </details>
+
 
 4. As a new user, I want to see information on the park's office opening times.
 
@@ -311,8 +314,9 @@ The website was tested on the following browsers:
 | Contact Section | Navigate to the Contact section | Find the office times           | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="...">
+<img src="docs/user_story_testing/user_story_office_times.jpg">
 </details>
+
 
 5. As a new user, I want to see information on how to book a lodge stay.
 
@@ -321,8 +325,9 @@ The website was tested on the following browsers:
 | Booking Form    | Navigate to the Booking Form    | Find the booking form           | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="...">
+<img src="docs/user_story_testing/user_story_booking.jpg">
 </details>
+
 
 6. As a returning user, I want to see information on the park's location to support with planning my journey to the park after making a booking.
 
@@ -331,8 +336,9 @@ The website was tested on the following browsers:
 | Contact Section | Navigate to the Contact section | Find the park's address         | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="...">
+<img src="docs/user_story_testing/user_story_location.jpg">
 </details>
+
 
 7. As a returning user, I want to see contact information for the park so I know where I can direct any queries or issues.
 
@@ -341,8 +347,9 @@ The website was tested on the following browsers:
 | Contact Section | Navigate to the Contact section | Find the park's contact details | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="...">
+<img src="docs/user_story_testing/user_story_contact_details.jpg">
 </details>
+
 
 8. As a returning user, I want to see information on the check-in times.
 
@@ -351,8 +358,9 @@ The website was tested on the following browsers:
 | Contact Section | Navigate to the Contact section | Find the park's check-in times  | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="...">
+<img src="docs/user_story_testing/user_story_checkin_checkout.jpg">
 </details>
+
 
 9. As a returning user, I want to see information on the check-out times.
 
@@ -361,8 +369,9 @@ The website was tested on the following browsers:
 | Contact Section | Navigate to the Contact section | Find the park's check-out times | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="...">
+<img src="docs/user_story_testing/user_story_checkin_checkout.jpg">
 </details>
+
 
 10. As the site owner, I want users to see information of how to book a lodge stay.
 
@@ -371,8 +380,9 @@ The website was tested on the following browsers:
 | Booking Form    | Navigate to the Booking Form    | Find the booking form           | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="...">
+<img src="docs/user_story_testing/user_story_booking.jpg">
 </details>
+
 
 11. As the site owner, I want users to see information of the park's location.
 
@@ -381,8 +391,9 @@ The website was tested on the following browsers:
 | Contact Section | Navigate to the Contact section | Find the park's address         | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="...">
+<img src="docs/user_story_testing/user_story_location.jpg">
 </details>
+
 
 12. As the site owner, I want users to have information on how to contact us.
 
@@ -391,8 +402,9 @@ The website was tested on the following browsers:
 | Contact Section | Navigate to the Contact section | Find the park's contact details | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="...">
+<img src="docs/user_story_testing/user_story_contact_details.jpg">
 </details>
+
 
 13. As the site owner, I want the website to be responsive so user's can browse on desktop and mobile devices.
 
@@ -400,10 +412,11 @@ The website was tested using Google Chrome Developer Tools - Device Toolbar to s
 The website was also tested on physical mobile devices. The website is fully responsive.
 
 <details><summary>Screenshots</summary>
-<img src="...">
-<img src="...">
-<img src="...">
+<img src="docs/user_story_testing/user_story_responsive_desktop.jpg">
+<img src="docs/user_story_testing/user_story_responsive_tablet.jpg">
+<img src="docs/user_story_testing/user_story_responsive_mobile.jpg">
 </details>
+
 
 14. As the site owner, I want users to be able to navigate back to the website's home page if they encounter a page which does not exist.
 
@@ -412,7 +425,7 @@ The website was also tested on physical mobile devices. The website is fully res
 | 404 Page        | Page displays when request triggers HTTP 404 response code, user can use navigation bar or page body link to return to main page | User returns to the main page   | Works as expected |
 
 <details><summary>Screenshot</summary>
-<img src="...">
+<img src="docs/user_story_testing/user_story_404.jpg">
 </details>
 
 ## Bugs
