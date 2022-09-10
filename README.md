@@ -83,6 +83,15 @@ User stories have been seperated into two groups; New users and returning users.
 13. As the site owner, I want the website to be responsive so user's can browse on desktop and mobile devices.
 14. As the site owner, I want users to be able to navigate back to the website's home page if they encounter a page which does not exist.
 
+### Wireframes
+
+<details><summary>Desktop wireframe</summary>
+<img src="docs/wireframes/wireframe_desktop.jpg">
+</details>
+<details><summary>Mobile wireframe</summary>
+<img src="docs/wireframes/wireframe_mobile.jpg">
+</details>
+
 ## Design
 
 ### Colour
