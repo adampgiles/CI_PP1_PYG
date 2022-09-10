@@ -425,3 +425,26 @@ The website was also tested on physical mobile devices. The website is fully res
 | Image carousels resizing and moving other components when moving to next or previous image                        | fixed bootstrap image width to 100%                                                                                                       |
 | Hero-image overlay text partially hidden at the bottom of the image on tablet screens                             | Set the image "top" value to "50%" instead of "50vh"                                                                                      |
 | Gap showing above navigation bar dropdown menu                                                                    | Moved dropdown menus postion up by 1px                                                                                                    |
+
+## Deployment
+
+### GitHub Pages
+The website was deployed using GitHub Pages by following these steps:
+1. Navigate to the Settings tab in the GitHub repository.
+2. Select Pages on the left hand side menu. 
+3. For source; select Branch: main.
+4. After saving, GitHub will refresh and the website will publish from the GitHub repository.
+5. A link to the published website will show: "Your site is published at "https://adampgiles.github.io/CI_PP1_PYG/"
+
+### Forking the GitHub Repository
+1. Go to the GitHub repository
+2. Click on Fork button in top right corner.
+
+### Making a Local Clone
+1. Navigate to the GitHub repository 
+2. Select the Code button above the files.
+3. Select the "HTTPS" tab on the dropdown window to clone with HTTPS, copy the link.
+4. Open Git Bash.
+5. Change the current working directory to the location where you would like the cloned directory.
+6. Type "git clone " and paste the URL from the clipboard (example: "$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY")
+7. Press Enter to create.
