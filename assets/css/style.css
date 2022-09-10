@@ -126,20 +126,20 @@ body section{
 
 /* Landing/Home Section */
 .image-container{    
-    background: url("../images/hero_image.webp") no-repeat center;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url("../images/hero_image_small.webp") no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 40vh;
 }
 
 .image-container h3{
+    text-align: center;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.65);
     padding: 10px;
-    text-align: center;
     color: white;
 }
 
@@ -632,13 +632,7 @@ footer p{
 
     .navbar-links.active{
         display: flex;
-    }
-
-    /* Home section */
-    .image-container{
-        background-image: url("../images/hero_image_small.webp"); 
-        height: 40vh;
-    }
+    }    
 
     /* Lodge section */
     .lodge{
@@ -697,6 +691,14 @@ footer p{
         color: black;
         background-color: var(--accentColour);
         border: 2px solid black;
+    }
+}
+
+@media (min-width: 860px){    
+    /* Home section, sets home image to higher resolution on larger screens */
+    .image-container{
+       background-image: url("../images/hero_image.webp");
+       height: 90vh; 
     }
 }
 
