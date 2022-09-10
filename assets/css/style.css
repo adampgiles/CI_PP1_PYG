@@ -125,21 +125,21 @@ body section{
 }
 
 /* Landing/Home Section */
-.image-container{    
+.home-section{
+    width:100vw;
+    height:100vh;    
+    background: url("../images/hero_image_small.webp") no-repeat center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("../images/hero_image_small.webp") no-repeat center;
-    background-size: cover;
-    width: 100vw;
-    height: 40vh;
 }
 
-.image-container h3{
-    text-align: center;
+.home-section h3{
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.65);
+    text-align: center;
     padding: 10px;
+    background-color: rgba(0, 0, 0, 0.65);
     color: white;
 }
 
@@ -696,7 +696,7 @@ footer p{
 
 @media (min-width: 860px){    
     /* Home section, sets home image to higher resolution on larger screens */
-    .image-container{
+    .home-section{
        background-image: url("../images/hero_image.webp");
        height: 90vh; 
     }
