@@ -28,9 +28,9 @@
 - [Testing](#testing)
     - [Accessibility](#accessibility)
     - [Performance](#performance)
-    - [Device Testing](#performing-tests-on-various-devices)
-    - [Browser Compatibility](#browser-compatability)
-    - [User Story Testing](#testing-user-stories)
+    - [Device Testing](#device-testing)
+    - [Browser Compatibility](#browser-compatibility)
+    - [User Story Testing](#user-story-testing)
 - [Bugs](#bugs)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -145,15 +145,15 @@ The website consists of five sections with eight features.
 - Links change to the accent colour when hovered over.
 - Navigation bar condenses to a hamburger icon and dropdown menu on smaller screens.
 
-![Navbar-Desktop](docs/features/navbarDesktop.JPG)
-![Navbar-Mobile](docs/features/navbarMobile.JPG)
-![Navbar-Dropdown-Mobile](docs/features/navbarDropdownMobile.JPG)
+![Navbar-Desktop](docs/features/navbar_desktop.JPG)
+![Navbar-Mobile](docs/features/navbar_mobile.JPG)
+![Navbar-Dropdown-Mobile](docs/features/navbar_dropdown_mobile.JPG)
 
 ### Landing Image
 - Image displaying a beautiful woodland trail, giving the user a clear image of the parks atmosphere and surroundings.
 - Overlay text "Luxury Lodges in the heart of South Wales" clearly indicates what the site is about and general location.
 
-![Landing-Image](docs/features/landingImage.JPG)
+![Landing-Image](docs/features/landing_image.JPG)
 
 ### The Park Section
 - Provides a welcome message.
@@ -162,7 +162,7 @@ The website consists of five sections with eight features.
 - Responsive layout for smaller screens.
 - Meets User stories: 1, 6, 11, 13.
 
-![Park-Section](docs/features/parkSection.JPG)
+![Park-Section](docs/features/park_section.JPG)
 
 ### Our Lodges Section
 - Provides information on the park's three lodge types.
@@ -171,7 +171,7 @@ The website consists of five sections with eight features.
 - Responsive layout for smaller screens.
 - Meets User stories: 2, 3, 5, 10, 13.
 
-![Lodge-Section](docs/features/lodgeSection.JPG)
+![Lodge-Section](docs/features/lodge_section.JPG)
 
 ### Booking Form
 - Provides a statement on how to request a lodge booking.
@@ -180,7 +180,7 @@ The website consists of five sections with eight features.
 - Responsive layout for smaller screens.
 - Meets User stories: 5, 10, 13.
 
-![Booking-Form](docs/features/bookingForm.JPG)
+![Booking-Form](docs/features/booking_form.JPG)
 
 ### Contact Section
 - Provides information on the park's address, telephone and email details, office times, check-in/check-out times, social media links and a embedded google map of the park's location (Currently showing fictional area of location).
@@ -190,7 +190,7 @@ The website consists of five sections with eight features.
 - Responsive layout for smaller screens.
 - Meets User stories: 1, 4, 6, 7, 8, 9, 11, 12, 13.
 
-![Contact-Section](docs/features/contactSection.JPG)
+![Contact-Section](docs/features/contact_section.JPG)
 
 ### Footer
 - Situated on the main site page and 404 page.
@@ -203,7 +203,7 @@ The website consists of five sections with eight features.
 - User provided with a link to return to the main site, or can use the navigation bar.
 - Meets User stories: 15.
 
-![404-Page](docs/features/404Page.JPG)
+![404-Page](docs/features/404_page.JPG)
 
 ## Validation
 
@@ -211,11 +211,11 @@ The website consists of five sections with eight features.
 
 W3C Markup Validation Service was utilised to validate the HTML of the website. Both the main page and 404 page pass with no errors or no warnings to show.
 <details><summary>Main Page</summary>
-<img src="docs/validation/indexHtmlValidation.JPG">
+<img src="docs/validation/index_html_validation.JPG">
 </details>
 
 <details><summary>404 Page</summary>
-<img src="docs/validation/404HtmlValidation.JPG">
+<img src="docs/validation/404_html_validation.JPG">
 </details>
 
 ### CSS Validation
@@ -224,11 +224,11 @@ W3C Jigsaw CSS Validation Service was utilised to validate the website's CSS. Wh
 When validating my own CSS, no errors and the only warnings are due to CSS variables not being statistically checked.
 
 <details><summary>Website</summary>
-<img src="docs/validation/websiteCSSErrorValidation.JPG">
-<img src="docs/validation/websiteCSSWarningValidation.JPG">
+<img src="docs/validation/website_css_error_validation.JPG">
+<img src="docs/validation/website_css_warning_validation.JPG">
 </details>
 <details><summary>style.css</summary>
-<img src="docs/validation/websiteOwnCSSValidation.JPG">
+<img src="docs/validation/website_own_css_validation.JPG">
 </details>
 
 ## Testing
@@ -238,7 +238,7 @@ When validating my own CSS, no errors and the only warnings are due to CSS varia
 WAVE WebAIM web accessibility evaluation tool was utilised to ensure the website met accessibility standards, passed with 0 errors.
 
 <details><summary>Accessibility Test Result</summary>
-<img src="docs/validation/accessibilityValidation.JPG">
+<img src="docs/validation/accessibility_validation.JPG">
 </details>
 
 ### Performance
@@ -246,7 +246,7 @@ WAVE WebAIM web accessibility evaluation tool was utilised to ensure the website
 To test the performance of the website, Lighthouse in Google Chrome developer tools was used. Below is the outcome.
 
 <details><summary>Performance Test Result</summary>
-<img src="docs/validation/websitePerformanceValidation.JPG">
+<img src="docs/validation/website_performance_validation.JPG">
 </details>
 
 ### Device Testing
