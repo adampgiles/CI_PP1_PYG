@@ -188,7 +188,6 @@ body section{
     margin: auto;
     padding: 20px;
     flex-wrap: wrap;
-    overflow: hidden;
     max-width: 800px;
 }
 
@@ -246,6 +245,11 @@ body section{
 .carousel{
     padding: 10px;
     margin: auto;
+}
+
+.carousel img{
+    height: auto;
+    width: 100%;
 }
 
 .w-100{
