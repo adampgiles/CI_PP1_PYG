@@ -461,3 +461,8 @@ The website was deployed using GitHub Pages by following these steps:
 - Navigation Bar created and modified using code from a Youtube tutorial by [Web Dev Simplified](https://www.youtube.com/watch?v=At4B7A4GOPg&t=155s)
 - [Image Carousel](https://getbootstrap.com/docs/5.2/components/carousel/#with-indicators) with indicators was created using Bootrap v5.2 documentation code.
 - A Google Map was embedded using code from [Google Maps Platform](https://developers.google.com/maps/documentation/embed/get-started)
+
+## Acknowledgements
+Thank you to the following individuals for their support during the creation of this website; 
+- Mo Shami, my Mentor, who provided excellent guidance and feedback throughout. 
+- My partner and friends, for supporting with device testing.
